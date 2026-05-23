@@ -223,30 +223,64 @@ The visualizations helped demonstrate how Polynomial Regression captures curved 
 
 ---
 
+<div align="center">
+
 ## Technologies Used
----
-Technology	                         Purpose
-Python	                             Programming Language
-Pandas	                             Data Handling
-NumPy	                               Numerical Operations
-Matplotlib	                         Data Visualization
-Seaborn	                             Heatmaps & Pairplots
-Scikit-learn	                       Machine Learning & Preprocessing
+
+<table>
+<tr>
+<th>Technology</th>
+<th>Purpose</th>
+</tr>
+
+<tr>
+<td><b>Python</b></td>
+<td>Core programming language used for building the complete machine learning workflow.</td>
+</tr>
+
+<tr>
+<td><b>Pandas</b></td>
+<td>Used for loading, cleaning, preprocessing, and manipulating agricultural dataset records.</td>
+</tr>
+
+<tr>
+<td><b>NumPy</b></td>
+<td>Performed numerical computations and supported mathematical operations during model processing.</td>
+</tr>
+
+<tr>
+<td><b>Matplotlib</b></td>
+<td>Created regression plots, subplots, polynomial curves, and visualization graphs.</td>
+</tr>
+
+<tr>
+<td><b>Seaborn</b></td>
+<td>Generated heatmaps, pairplots, and statistical visualizations for exploratory data analysis.</td>
+</tr>
+
+<tr>
+<td><b>Scikit-learn</b></td>
+<td>Implemented preprocessing techniques, Polynomial Features, normalization, train-test splitting, and regression modeling.</td>
+</tr>
+
+</table>
+
+</div>
 
 ---
 
 ## Project Output
 
 The project successfully:
+-implemented Polynomial Regression
+-transformed features into polynomial form
+-analyzed agricultural patterns
+-normalized data using MinMaxScaler
+-encoded categorical agricultural features
+-generated predictions
+-visualized polynomial relationships
+-explored non-linear crop production trends
 
-implemented Polynomial Regression
-transformed features into polynomial form
-analyzed agricultural patterns
-normalized data using MinMaxScaler
-encoded categorical agricultural features
-generated predictions
-visualized polynomial relationships
-explored non-linear crop production trends
 ---
 
 ## Learning Objective
@@ -266,6 +300,8 @@ real-world machine learning workflows
 ---
 
 The repository combines preprocessing, feature engineering, regression modeling, evaluation, and visualization into a complete end-to-end machine learning project workflow.
+
+---
 
 <div align="center">
 Repository Includes
